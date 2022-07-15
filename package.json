@@ -1,0 +1,16 @@
+{
+  "name": "Todo",
+  "version": "1.0.0",
+  "description": "Basic todo app created using electron.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rufat00/Electron-Todo-App.git"
+  },
+  "main": "main.js",
+  "author": "~Rufat~",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "electron": "^19.0.8"
+  }
+}
