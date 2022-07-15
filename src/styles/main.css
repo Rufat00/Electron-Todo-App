@@ -1,0 +1,92 @@
+.header{
+    width: 100%;
+    background-color: #21262d;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.input{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    background-color: #0d1117;
+    padding: 8px;
+    border: #ecf2f8 1px solid;
+    width: 400px;
+    font-size: 16px;
+    border-radius: 4px 0px 0px 4px;
+    border-right: 0px;
+    color: #ecf2f8;
+}
+
+.input button{
+    text-transform: capitalize;
+    background-color: #7ce38b;
+    border: #7ce38b 1px solid;
+    color: #ecf2f8;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0px 4px 4px 0px;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.groups_container{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.groups{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+.group{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 6px;
+    background-color: #ecf2f8;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin: 12px;
+}
+
+.group_link{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.group_delete{
+    position: absolute;
+    background-color: #fa7970;
+    text-transform: capitalize;
+    border: none;
+    color: #ecf2f8;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 4px 0px 16px 0px;
+    width: fit-content;
+    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.group:hover{
+    transform: scale(1.1);
+}
+.group h3{
+    color: #0d1117;
+}

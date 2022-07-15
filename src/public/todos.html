@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles//style.css">
+    <link rel="stylesheet" href="../styles/todo.css">
+    <script src="../js/todos.js" defer type="module"></script>
+    <title>Todo</title>
+</head>
+<body>
+    <a href="./index.html" class="back">Back</a>
+    <header class="container header" id="todo_form">
+        <input type="text" placeholder="Title" id="create_title">
+        <input type="text" placeholder="Describtion" id="create_describtion">
+        <input type="date" id="create_date">
+        <button class="create_button" id="create_new">create todo</button>
+    </header>
+    <div class="container todos_container">
+        <h2>Todods</h2>
+        <div class="todos" id="todos">
+        </div> 
+    </div>
+</body>
+</html>

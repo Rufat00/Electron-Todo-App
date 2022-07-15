@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: #161b22;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ecf2f8;
+}
+p{
+    color: #c6cdd5;
+}
+a{
+    color: #cea5fb;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+::-webkit-scrollbar{
+    background: none;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ecf2f8;
+    width: 4px;
+    border-radius: 4px;
+}

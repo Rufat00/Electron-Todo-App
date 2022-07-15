@@ -1,0 +1,129 @@
+.header{
+    width: 100%;
+    background-color: #21262d;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.header input{
+    background-color: #0d1117;
+    padding: 8px;
+    border: #ecf2f8 1px solid;
+    width: 600px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #ecf2f8;
+    margin-top: 10px;
+}
+
+.header button {
+    display: block;
+    text-transform: capitalize;
+    color: #ecf2f8;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 400px;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.todos_container{
+    margin-top: 10px;
+    text-align: center;
+}
+.todos{
+    margin-top: 10px;
+}
+.todo{
+    width: 100%;
+    background-color: #21262d;
+    padding: 10px;
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.todo_content{
+    flex: 1;
+    text-align: left;
+}
+.todo_content h3{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.todo_content p{
+    font-size: 18px;
+    color: #ecf2f8;
+    opacity: 0.9;
+}
+
+.date{
+    background-color: #77bdfb;
+    padding: 4px;
+    font-size: 14px;
+    color: #ecf2f8;
+    border-radius: 6px;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.todo_buttons button{
+    display: block;
+    text-transform: capitalize;
+    color: #ecf2f8;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.create_button{
+    background-color: #7ce38b;
+}
+.delete_button{
+    background-color: #fa7970;
+}
+.update_button{
+    background-color: #faa356;
+}
+
+.todo_buttons button{
+    display: block;
+    text-transform: capitalize;
+    color: #ecf2f8;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.back{
+    position: absolute;
+    display: block;
+    left: 10;
+    top: 10;
+    text-transform: capitalize;
+    background-color: #ecf2f8;
+    color: #0d1117;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+}
